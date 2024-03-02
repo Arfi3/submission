@@ -2,8 +2,8 @@
 
 ## Setup environment
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
+python -m venv dashboard
+dashboard\Scripts\activate
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
